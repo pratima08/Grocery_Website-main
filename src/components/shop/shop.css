@@ -1,0 +1,182 @@
+.fast-filters {
+   flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .sidebar{
+    width: 500px;
+    margin-left: 50px;
+  }
+  .inlineoption{
+    display: flex;
+  }
+  .sidebar h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .filter-button {
+    width: 130px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  .sort-options {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0eeee;
+    gap: 50px;
+    margin-top:50px;
+  }
+  
+  .sort-options select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #686666;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  .sort-options button{
+    padding: 10px 50px;
+    background-color: #4caf50;
+    border-color: #4caf50;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 1rem;
+  }
+  .sorting{
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-between;
+  }
+  .productcard{
+    padding: 30px;
+    background-color: antiquewhite;
+    text-decoration: none;
+    margin: 10px;
+  }
+  /* Dropdown Section Styling */
+  .dropdown-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .dropdown {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .dropdown:focus {
+    border-color: #4caf50;
+  }
+  
+  .filter-apply-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-apply-button:hover {
+    background-color: #45a049;
+  }
+  .product-grid {
+    display: grid;
+    margin-top:100px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .sale-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6f61;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .new-price {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .tags {
+    margin-top: 8px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin: 2px;
+  }
+  
+  .add-to-cart {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+  }

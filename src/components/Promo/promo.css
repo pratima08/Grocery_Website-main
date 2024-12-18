@@ -1,0 +1,24 @@
+/* src/SideBySideDivs.css */
+.container {
+    display: flex; /* Use flexbox to arrange divs side by side */
+    justify-content: space-between; /* Add space between the divs */
+    padding: 20px;
+}
+
+.left-div, .right-div {
+    flex: 1; /* Each div takes equal space */
+    margin: 10px; /* Add some margin between divs */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border for visibility */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.list {
+    display: flex; /* Display list items in a row */
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.list li {
+    margin-right: 15px; /* Space between list items */
+}

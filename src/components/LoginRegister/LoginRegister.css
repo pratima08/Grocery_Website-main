@@ -1,0 +1,121 @@
+
+.app-container {
+    max-width: 1000px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+  }
+  .app-container .myaccountcontent{
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+.app-container .inoneline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+  .app-container h1 {
+    font-size: 2.5em;
+    color: #2a6e32;
+    margin-left: 50px;
+  }
+  
+  .app-container p {
+    color: #2a6e32;
+  }
+  
+  .login-register-container {
+     display: flex;
+     justify-content: left;
+     text-align: left;
+  }
+  
+  .login-container, .register-container {
+    width: 60%;
+    margin-left: 150px;
+  }
+  
+  .login-container h2, .register-container h2 {
+    font-size: 1.5em;
+    color: #333;
+    line-height:normal;
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color:#666;
+
+  }
+  
+  form input[type="text"], form input[type="password"], form input[type="email"] {
+    width: 120%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+  }
+  
+  .remember-me input {
+    margin-right: 5px;
+  }
+  
+  .login-btn, .register-btn {
+    background-color: #2a6e32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    display: block;
+    color: #b43232;
+    text-decoration: none;
+    margin: 20px 0;
+  }
+  
+  .social-login {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .facebook-login {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .google-login {
+    background-color: #db4437;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .register-container p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+  }
+  

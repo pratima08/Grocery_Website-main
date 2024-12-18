@@ -1,0 +1,95 @@
+/* App.css */
+.faq-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .faq-header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-accordion h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-reviews {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .reviews-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+  }
+  
+  .bestseller-brands {
+    margin-top: 40px;
+  }
+  
+  .product-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    flex: 1 1 calc(25% - 10px);
+    box-sizing: border-box;
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-width: 100px;
+  }
+  
+  .sale-price {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+  }
+  

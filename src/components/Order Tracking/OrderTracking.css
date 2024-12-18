@@ -1,0 +1,112 @@
+header {
+    background-color: #d4f0b2;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #4CAF50;
+  }
+  header nav .linking{
+    text-decoration: none;
+    color: #4CAF50;
+    margin: 10px;
+  }
+  header nav .linkingtext{
+    text-decoration: none;
+    color: #c28005;
+    margin: 10px;
+  }
+  header nav {
+    font-size: 14px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-container {
+    flex: 1;
+    margin: 50px;
+    margin-right: 10px;
+  }
+  .left-container h2{
+    margin-bottom: 20px;
+  }
+  .right-container {
+    flex: 1;
+    margin-left:10px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .contentpara{
+    margin-left:130px;
+  }
+  .contentpara .headtext{
+    font-size: 1.3rem;
+    font-weight: 550;
+  }
+  .contentpara .paratext{
+    color: #646262;
+    margin-top: 10px;
+  }
+  .faq-question {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .faq-answer {
+    color: #827f7f;
+    font-size: 0.9rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .contact h2{
+    color: #000;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .contact-form{
+    width: 500px;
+  }
+ .contact-form h6{
+    margin: 5px;
+ }
+ .contact-form p{
+    font-size: 0.9rem;
+ }
+  .card {
+    margin: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+  }
+  .card-container{
+    margin: 10px;
+  }
+  .card img {
+    width: 190px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .left-container, .right-container {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

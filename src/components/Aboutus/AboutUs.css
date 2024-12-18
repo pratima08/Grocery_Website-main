@@ -1,0 +1,205 @@
+/* AboutUs.css */
+
+.about-us {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Video Section */
+  .video-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .video-text-box{
+    font-weight: bold;
+  }
+  .video-text-box {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+  
+  /* Content Section */
+  .content-section {
+    margin:50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  .content-image{
+    background-color: #27ae60;
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  .content-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+  }
+  .content-section .labeltext{
+    background-color: #099242;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .content-text{
+    width: 900px;
+    margin-left: 50px;
+    text-align: left;
+  }
+  .content-text h2 {
+    margin-bottom: 10px;
+  }
+  
+  .content-text p {
+    line-height: 1.6;
+  }
+  
+  /* Statistics Section */
+  .statistics-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .stat h2 {
+    font-size: 2rem;
+    color: #099242;
+  }
+  
+  .stat p {
+    margin-top: 5px;
+    color: #7f8c8d;
+  }
+  
+  /* Text Section */
+  .text-section {
+    padding: 40px;
+    font-size: 1.7rem;
+    color: #711505;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+  }
+  .text-section h4{
+    font-weight: 600;
+  }
+  .text-section .paratext{
+    width: 600px;
+    margin-left: 25%;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* Reviews and CTA Section */
+  .reviews-section {
+    width: 70%;
+    height: 300px;
+    margin-left: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    position:absolute;
+  }
+  
+  .reviews {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    position:absolute;
+  }
+  
+  .review-text {
+    font-style: italic;
+    color: #2d3436;
+  }
+  
+  .buy-button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Instagram Section */
+  .instagram-section {
+    margin-top: 40px;
+  }
+  
+  .instagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .follow-btn {
+    background: #3897f0;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 10px;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .carousel-track img {
+    width: 260px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%)
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
